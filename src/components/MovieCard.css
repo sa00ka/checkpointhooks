@@ -1,0 +1,36 @@
+.elcards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    }
+    .cards{
+        margin: 50px;
+        box-shadow: 0px 5px 10px 0px rgba(31, 30, 30, 0.918);
+    }
+    .cards:hover{
+        transform: scale(1.2);
+        box-shadow: 0px 10px 20px 2px rgb(31, 30, 30, 0.918);
+    }
+    .eladdmovie{
+        
+        height: 55px;
+        padding-top: 10px;
+        padding-left: auto;
+        padding-right: auto;
+        
+      }
+      .elcards{
+        color: black;
+      }
+     
+      .ecarouselcaption >*{
+        color: black;
+    
+
+      }
+      .ecarouselcaption > h1{
+        margin-bottom: 50%;
+
+      }
