@@ -5,7 +5,11 @@
   
 }
 
-
+.elcarousel{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,7 +17,7 @@
   }
 }
 
-@keyframes App-logo-spin {
+@keyframes animation {
   from {
     transform: rotate(0deg);
   }
